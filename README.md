@@ -1,50 +1,44 @@
 # sensores-cuanticos
 
-Sensores cuánticos para neurociencia y cardiología (libro blanco y proyectos 1-7).
+# sensores-cuanticos  Sensores cuánticos para neurociencia y cardiología (libro blanco y proyectos 1-7).  **Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
 
-**Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
+## Autoría
 
-## Carpetas de origen en Google Drive
+- **Autor:** Lázaro López Paz, El Prat de Llobregat, Barcelona, España
+- **ORCID:** [0000-0001-8601-1963](https://orcid.org/0000-0001-8601-1963)
+- Elaborado con asistencia de inteligencia artificial
+- Sin afiliaciones institucionales
 
-- https://drive.google.com/drive/folders/1S8k4hOfoDBDg0ED3m2X-0YO9ixJQeeEs
-- https://drive.google.com/drive/folders/18NQRlMgkt7AXzVXocnHvKI-ake2S-c-C
+## Estado
 
-## Archivos incluidos
+Proyecto en desarrollo / documentación. No afirmar validación experimental salvo que el código o los informes del propio repositorio lo demuestren.
 
-- `docs/Libro_Blanco_Sensores_Cuanticos.md` ← Libro_Blanco_Sensores_Cuanticos.pdf
-- `docs/Proyecto_1_Sensor_Cuantico_Lazaro_Lopez_Paz_v1-.md` ← Proyecto_1_Sensor Cuantico Lazaro Lopez Paz_v1-.pdf
-- `docs/Proyecto_numero_2_del_30_7_2026.md` ← Proyecto número 2_del 30_7_2026.pdf
-- `docs/Proyecto_numero_3_30_07_2026.md` ←  Proyecto número 3_30_07_2026.pdf
-- `docs/Proyecto_numero_4_30_07_2026.md` ← Proyecto número 4_30_07_2026.pdf
-- `docs/Proyecto_numero_5_30_07_2026.md` ← Proyecto número 5_30_07_2026.pdf
-- `docs/Proyecto_numero_6_30_07_2026.md` ← Proyecto número 6_30_07_2026.pdf
-- `docs/Proyecto_numero_7_30_07_2026.md` ← Proyecto número 7_30_07_2026.pdf
+## Contenido (raíz)
 
-## Pendiente: en Drive
+```
+docs/
+LICENSE
+nv_odmr/
+README.md
+REFERENCIAS.md
+requirements.txt
+tests/
+```
 
-Archivos binarios (presentaciones, PDFs grandes, vídeos, imágenes, zips, docx) que no se pudieron pasar a texto. Siguen en Drive:
+## Instalación
 
-- El Futuro del Diagnóstico Cuántico.png · pendiente: en Drive · https://drive.google.com/file/d/1V1PdPOSDF_MPbmoNwPj-me7oyRHGaHki/view?usp=drivesdk
-- Medicina_Cuántica_2026.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1BnZLqRhfv4-eEH7rpPXKl3o_sjef_Ska/view?usp=drivesdk
-- Proyecto número 2_del 30_07_2026.docx · pendiente: en Drive · https://docs.google.com/document/d/1vfWLvX5DlVSVTjYPPd9L1LdMhUe2bllY/edit?usp=drivesdk&ouid=104725215047766891127&rtpof=true&sd=true
-- Quantum Biomedical Sensing.pdf · pendiente: en Drive · https://drive.google.com/file/d/1qhC6AAfsoEO2Oh6JKep_VbZDK6zNbf73/view?usp=drivesdk
-- Quantum Organ-on-a-Chip Diagnostics.png · pendiente: en Drive · https://drive.google.com/file/d/1zofC-DJ2yifVO2W8yjgvLczWhkd0LoVA/view?usp=drivesdk
-- Quantum_Biomedical_Sensing.pptx · pendiente: en Drive · https://docs.google.com/presentation/d/1DAO55iqSMew9ooSqVl3ZlZm55UO5UboX/edit?usp=drivesdk&ouid=104725215047766891127&rtpof=true&sd=true
-- Quantum_Sensors_2026.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1YrV50nMz16jKIVakMh9IqSpOHc9Tc3O4/view?usp=drivesdk
-- The Quantum Biological Interface.pdf · pendiente: en Drive · https://drive.google.com/file/d/1i8eWJTyrHi6YNICHVE9MMgw7140icbsk/view?usp=drivesdk
-- The_Quantum_Biological_Interface.pptx · pendiente: en Drive · https://docs.google.com/presentation/d/1MuZzy3UwiTtZneEHIH23UD6480Xjd9iA/edit?usp=drivesdk&ouid=104725215047766891127&rtpof=true&sd=true
+```bash
+pip install -r requirements.txt
+```
 
----
-Los archivos `.trashed-*`, las copias («- copia») y los duplicados entre carpetas no se han listado.
 
-## Fuentes NotebookLM
+## Uso
 
-Textos del paquete NotebookLM (Drive `NotebookLM_Fuentes_2026-08-30`) que no existían en este repositorio:
+Archivos Python principales (revisar cada uno antes de ejecutar):
+- `nv_odmr/__init__.py`
+- `tests/test_nv.py`
 
-- [docs/notebooklm/09_SENSORES_LDCHIP.md](docs/notebooklm/09_SENSORES_LDCHIP.md)
 
-## Código ejecutable (nv_odmr)
+## Licencia
 
-`pip install -r requirements.txt && python -m pytest -q`
-
-Modelo de referencia público, no los datos del autor: ODMR de NV y la inversión campo↔separación de las líneas.
+Ver archivo `LICENSE` (o `LICENSE.md`) en la raíz. Documentación bajo CC BY 4.0 cuando aplique; código habitualmente MIT, salvo indicación contraria.
